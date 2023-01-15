@@ -1,0 +1,167 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+/* display: flex;
+    flex-direction: column; */
+
+main {
+
+    align-items: center;
+    text-align: center;
+
+}
+
+.banner {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.tops {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    margin-top: 100px;
+    align-items: center;
+}
+
+.archi-img {
+    height: 80%;
+}
+
+.text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.top-1 {
+    margin-top: 15px;
+}
+
+.prodip {
+    text-align: center;
+
+
+}
+
+/* .pera {
+    width: 50%;
+} */
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 15px;
+    color: black;
+}
+
+
+.fas {
+    color: #efefefd5;
+    font-size: 18px;
+}
+
+/* width: 180px;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.863);
+    text-align: center; */
+.button {
+    background-color: rgb(255, 123, 0);
+    border-radius: 10px;
+    position: relative;
+    width: 180px;
+    height: 64px;
+    color: rgba(255, 255, 255, 0.863);
+
+
+}
+
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.left {
+    margin-left: 10px;
+}
+
+.quick {
+    color: #727272;
+}
+
+.feature {
+    color: #FF900E;
+}
+
+
+.fas {
+    color: orange;
+    background-repeat: no-repeat;
+}
+
+.text-1 {
+    position: absolute;
+    width: 5px;
+    height: 80px;
+    background: #FF900E;
+}
+.buttons{
+    background-color: rgb(255, 123, 0);
+    border-radius: 10px;
+    width: 200px;
+    height: 74px;
+    color: rgba(255, 255, 255, 0.863);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    gap: 4px;
+}
+.gr-id{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    
+}
+.done{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    mix-blend-mode: luminosity;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* templete device */
+@media only screen and (min-width: 688px) {
+    .top {
+        width: 100%;
+    }
+
+    .tops,
+    .future {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
